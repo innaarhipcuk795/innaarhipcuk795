@@ -1,0 +1,92 @@
+{
+  "style": "cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours",
+  "assets": [
+    {
+      "name": "sprite_dragon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_dragon.png",
+      "facing": "top-down three-quarter, nose UP",
+      "prompt": "one single serpentine azure sky dragon seen top-down three-quarter with its nose pointing UP, long tail streaming behind it, gold horns and fins, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_ring_azure",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_azure.png",
+      "prompt": "one single floating energy ring, an open circle seen face-on, glowing azure rim with faint inner runes, perfectly symmetric, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_ring_gold",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_gold.png",
+      "prompt": "one single floating energy ring, an open circle seen face-on, glowing gold rim with faint inner runes, perfectly symmetric, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_ring_violet",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_violet.png",
+      "prompt": "one single floating energy ring, an open circle seen face-on, glowing violet rim with faint inner runes, perfectly symmetric, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_shard",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_shard.png",
+      "prompt": "one single jagged storm crystal, dark indigo body with white electric sparks along its edges, symmetric, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_spark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_spark.png",
+      "prompt": "one single small rounded energy mote with a soft outward glow, symmetric, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_glyph_mark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_glyph_mark.png",
+      "prompt": "one single abstract heraldic emblem: a gold ring crossed by an azure dragon-eye crescent, flat symmetric mark, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no letters, no lettering, no text of any kind"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "one single bold X cross icon, gold, thick rounded strokes, perfectly symmetric, flat, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "one single pause icon, two thick rounded vertical bars side by side, gold, perfectly symmetric, flat, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "facing": "side view, facing LEFT",
+      "prompt": "one single left-pointing chevron arrow icon facing LEFT, gold, thick rounded stroke, flat, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, one subject centred and fully in frame, crisp silhouette, no text"
+    },
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "vertical 19.5:9 portrait night sky over a moonlit cloud sea, deep navy to azure gradient, distant stars, a faint violet aurora along the horizon, important detail kept in the central safe area, low contrast under the UI, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "vertical 19.5:9 portrait high-altitude night sky, darker and flatter than the menu sky, a soft star field with thin cloud bands, very low contrast so gameplay sprites read on top, cel-shaded toon game art, bold clean outlines, flat gradient shading, vivid saturated colours, no text, no UI elements"
+    }
+  ],
+  "icon": "one coiled azure sky dragon threading a single gold ring, high above a night-blue cloud sea"
+}
