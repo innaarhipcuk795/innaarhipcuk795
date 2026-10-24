@@ -1,0 +1,52 @@
+{
+  "notes": "tapFrac is computed from each target's real rect, never estimated. Panel space is 1242x2688 (the panels hang under an AspectRatioFitter locked to that), and the canvas resolves to 1242x2760 on a 1080x2400 device, so the conversion is tapFracX = panelX / 1242 and tapFracY = (36 + (2688 - panelY)) / 2760.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_SkyMap"
+    },
+    {
+      "tapFrac": [0.3382, 0.7551],
+      "label": "TRAIL VAULT (420, 640)",
+      "wait": 1.2,
+      "shot": "02_TrailVault"
+    },
+    {
+      "tapFrac": [0.8535, 0.2877],
+      "label": "vault close cross (1060, 1930)",
+      "wait": 0.9,
+      "shot": "03_SkyMap_closed"
+    },
+    {
+      "tapFrac": [0.5, 0.6646],
+      "label": "PLAY (621, 889.7) - the template LoadSceneButton slot, resized per G.3",
+      "waitLoader": true,
+      "wait": 9.0,
+      "shot": "04_RingFlight_early"
+    },
+    {
+      "tapFrac": [0.27, 0.62],
+      "label": "bank left - the 0.35 s tap latch turns one capture tap into a real swing",
+      "wait": 5.0,
+      "shot": "05_RingFlight_bank"
+    },
+    {
+      "tapFrac": [0.73, 0.62],
+      "label": "bank right - opposite side, a later gate, a different charge colour",
+      "wait": 5.0,
+      "shot": "06_RingFlight_chain"
+    },
+    {
+      "tapFrac": [0.9034, 0.1174],
+      "label": "Pause (1122, 2400)",
+      "wait": 1.4,
+      "shot": "07_FlightHeld"
+    },
+    {
+      "tapFrac": [0.73, 0.6373],
+      "label": "RESUME - PausePop BOT_BTNS_RIGHT (906.7, 965), its own rect, not the cross",
+      "wait": 3.0,
+      "shot": "08_RingFlight_resumed"
+    }
+  ]
+}
